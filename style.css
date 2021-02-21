@@ -20,6 +20,7 @@ img {
 }
 
 @media only screen and (min-width: 1000px) {
+    .greetings,
     #marques,
     #brenda {
         font-size: 1.5rem;
@@ -34,9 +35,23 @@ img {
     }
 }
 
+#marques i,
+#brenda i {
+    color: aliceblue;
+    background-color: #833ab4;
+    padding: 0 4px 4px 4px;
+    transition: all 0.5s ease;
+}
+
+#marques i:hover,
+#brenda i:hover {
+    opacity: 70%;
+}
+
 footer i {
     color:aliceblue;
     background-color: #2a363b;
     padding: 2px 5px 5px 5px;
     font-weight: 300;
+    transition: all 0.5s ease;
 }
