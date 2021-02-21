@@ -23,10 +23,20 @@ img {
     #marques,
     #brenda {
         font-size: 1.5rem;
+    }
+
+    #brenda {
         line-height: 1.5;
     }
 
     #marques {
-        line-height: 1.75;
+        line-height: 2;
     }
+}
+
+footer i {
+    color:aliceblue;
+    background-color: #2a363b;
+    padding: 2px 5px 5px 5px;
+    font-weight: 300;
 }
