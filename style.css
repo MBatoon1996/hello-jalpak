@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    margin: 0.5rem;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+@media only screen and (min-width: 1000px) {
+    div.container-fluid {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+.label {
+    padding: 2px 3px;
+    background-color: #f14668;
+    color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+    #marques,
+    #brenda {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    #marques {
+        line-height: 1.75;
+    }
+}
