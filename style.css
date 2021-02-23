@@ -95,12 +95,9 @@ img {
     }
 }
 
-#marques i,
-#brenda i {
-    color: aliceblue;
-    background-color: #833ab4;
-    padding: 0 4px 4px 4px;
-    transition: all 0.5s ease;
+#marques a,
+#brenda a {
+    color: inherit;
 }
 
 #marques i:hover,
